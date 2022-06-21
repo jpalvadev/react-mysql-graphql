@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.createUser {
+  display: flex;
+  width: 600px;
+  padding: 40px 80px;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #898989;
+  border-radius: 5px;
+}
+
+.createUser input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #898989;
+  border-radius: 5px;
+}
+
+.createUser button {
+  width: auto;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(100, 63, 164);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 10px;
+}
+
+.user button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(210, 23, 88);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
